@@ -10,6 +10,7 @@ def cli():
     """GitHub Sentinel CLI"""
     pass
 
+
 @cli.command()
 @click.argument('repo_name')
 def subscribe(repo_name):
